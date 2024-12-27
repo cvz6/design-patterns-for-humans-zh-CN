@@ -14,9 +14,12 @@ A topic that can easily make anyone's mind wobble. Here I try to make them stick
 
 ***
 
-<sub>Check out my [other project](http://roadmap.sh) and say "hi" on [Twitter](https://twitter.com/kamrify).</sub>
+<p align="center">
+<a href="./i18n/readme.zh-CN.md">简体中文</a> | 
+<a href="./i18n/readme.zh-Hans.md">繁體中文</a>
+</p>
 
-<br>
+<sub>Check out my [other project](http://roadmap.sh) and say "hi" on [Twitter](https://twitter.com/kamrify).</sub>
 
 |[Creational Design Patterns](#creational-design-patterns)|[Structural Design Patterns](#structural-design-patterns)|[Behavioral Design Patterns](#behavioral-design-patterns)|
 |:-|:-|:-|
@@ -199,7 +202,6 @@ abstract class HiringManager
         $interviewer->askQuestions();
     }
 }
-
 ```
 Now any child can extend it and provide the required interviewer
 ```php
@@ -1637,7 +1639,7 @@ Real world example
 > A general example would be when you talk to someone on your mobile phone, there is a network provider sitting between you and them and your conversation goes through it instead of being directly sent. In this case network provider is mediator.
 
 In plain words
-> Mediator pattern adds a third party object (called mediator) to control the interaction between two objects (called colleagues). It helps reduce the coupling between the classes communicating with each other. Because now they don't need to have the knowledge of each other's implementation.
+> Mediator pattern adds a third party object (called mediator) to control the interaction between two objects (called colleagues). It helps reduce the coupling between the classes communicating with each other.
 
 Wikipedia says
 > In software engineering, the mediator pattern defines an object that encapsulates how a set of objects interact. This pattern is considered to be a behavioral pattern due to the way it can alter the program's running behavior.
@@ -2029,7 +2031,7 @@ In plain words
 > Strategy pattern allows you to switch the algorithm or strategy based upon the situation.
 
 Wikipedia says
-> In computer programming, the strategy pattern (also known as the policy pattern) is a behavioural software design pattern that enables an algorithm's behavior to be selected at runtime.
+> In computer programming, the strategy pattern (also known as the policy pattern) is a behavioral software design pattern that enables an algorithm's behavior to be selected at runtime.
 
 **Programmatic example**
 
