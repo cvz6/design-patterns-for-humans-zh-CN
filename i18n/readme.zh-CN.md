@@ -1,9 +1,4 @@
-<br>
-<p align="center">
-  <img src="./.github/banner.svg" height="150px" />
-</p>
 
-***
 
 <p align="center">
 🎉 超简化的设计模式解释！ 🎉
